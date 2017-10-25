@@ -1,0 +1,28 @@
+body{
+    width: 320px;
+    height: 240px;
+    border: 2px solid red;
+}
+
+
+.input-cpf{
+    width: 100%;
+}
+
+.teclado .col{
+    border: 1px solid #808080;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.teclado .row{
+    padding: 0 15px 0 15px;
+}
+
+#grad {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #F8F8FF, #DCDCDC); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #F8F8FF, #DCDCDC); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #F8F8FF, #DCDCDC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #F8F8FF, #DCDCDC); /* Standard syntax */
+  }

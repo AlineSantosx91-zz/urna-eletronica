@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <title>Urna</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/estilo.css" rel="stylesheet" />
+    <link href="css/helpers.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <header></header>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12 m-t-10 text-center f20">
+                <span>Digite seu CPF</span>
+            </div>
+
+            <div class="col-md-10">
+                <input id="cpf" class="input-cpf border-0 text-center" 
+                type="text" />
+            </div>
+            <div class="col-md-2">
+                <span class="f20" onclick="clearCPF()">
+                <i class="fa fa-times"></i>
+                </span>
+            </div>
+        </div>
+        <div id="grad" class="teclado m-t-20 text-center">
+            <div class="row">
+                <div class="col border-right-0 border-bottom-0" onclick="setCpf('7')">7</div>
+                <div class="col border-right-0 border-bottom-0" onclick="setCpf('8')">8</div>
+                <div class="col border-bottom-0" onclick="setCpf('9')">9</div>
+            </div>
+            <div class="row">
+                <div class="col border-right-0 border-bottom-0" onclick="setCpf('4')">4</div>
+                <div class="col border-right-0 border-bottom-0" onclick="setCpf('6')">5</div>
+                <div class="col border-bottom-0" onclick="setCpf('6')">6</div>
+            </div>
+            <div class="row">
+                <div class="col border-right-0 border-bottom-0" onclick="setCpf('1')">1</div>
+                <div class="col border-right-0 border-bottom-0" onclick="setCpf('2')">2</div>
+                <div class="col border-bottom-0" onclick="setCpf('3')">3</div>
+            </div>
+
+            <div class="row">
+                <div class="col col border-right-0" onclick="setCpf('0')">0</div>
+                <div class="col"> OK </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/teclado.js"></script>
+</body>
+
+</html>
