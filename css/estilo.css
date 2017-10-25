@@ -9,6 +9,12 @@ body{
     width: 100%;
 }
 
+.input-cpf:focus, .input-cpf:focus, .input-cpf:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
 .teclado .col{
     border: 1px solid #808080;
     cursor: pointer;
